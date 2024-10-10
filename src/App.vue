@@ -50,6 +50,7 @@ export default defineComponent({
 main {
   --bg-primario: #fff;
   --texto-primario: #000;
+  max-height: 100vh !important;
 }
 main.dark-mode {
   --bg-primario: #2b2d42;

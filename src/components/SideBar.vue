@@ -1,10 +1,12 @@
 <template>
-    <header>
+    <div class="sidebar-content">
+      <header>
         <h1>
             <img src="../assets/logo.png" alt="">
         </h1>
-        <button class="button" @click="darkMode">Dark mode</button>
-    </header>
+      </header>
+      <button class="button" @click="darkMode">Dark mode</button>
+    </div>
 </template>
 
 <script lang="ts">
@@ -35,6 +37,14 @@ header {
   height: 100vh;
   text-align: center;
 }
+
+.sidebar-content {
+  max-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
 @media only screen and (max-width: 768px) {
   header {
     padding: 2.5rem;

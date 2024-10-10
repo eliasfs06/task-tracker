@@ -30,6 +30,8 @@ export default defineComponent({
 
 <style scoped>
     .box {
-        background: #FAF0CA;
+        background: #91c2b2;
+        color: black;
+        border-radius: 10px !important;
     }
 </style>

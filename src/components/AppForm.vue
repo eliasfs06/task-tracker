@@ -44,4 +44,8 @@ export default defineComponent({
         background-color: var(--bg-primario);
         color: var(--texto-primario);
     }
+
+    .box {
+        border-radius: 0px !important;
+    }
 </style>

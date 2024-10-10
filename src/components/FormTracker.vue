@@ -24,7 +24,9 @@ export default defineComponent({
 </script>
 <style scoped>
     .tracker {
-        background-color: var(--bg-primario);
-        color: var(--texto-primario);
+        color: black;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
     }
 </style>

@@ -1,18 +1,14 @@
 <template>
-    <div class="is-flex is-align-items-center is-justify-content-space-between">
+    <div class="is-flex is-align-items-center">
         <FormTracker :timeInSeconds="timeInSeconds" />
-        <button class="button" @click="start" :disabled="trakcerIsRunning">
-            <span class="icon">
-                <i class="fas fa-play"></i>
-            </span>
-            <span>play</span>
-        </button>
-        <button class="button" @click="end" :disabled="!trakcerIsRunning">
-            <span class="icon">
-                <i class="fas fa-stop"></i>
-            </span>
-            <span>stop</span>
-        </button>
+        <div class="button-container">
+            <button class="button" @click="start" :disabled="trakcerIsRunning">
+                <span>play</span>
+            </button>
+            <button class="button" @click="end" :disabled="!trakcerIsRunning">
+                <span>stop</span>
+            </button>
+        </div>
     </div>
 </template>
 
@@ -49,3 +45,9 @@ export default defineComponent({
     }
 });
 </script>
+
+<style>
+    .button-container{
+       margin-left: 25px; 
+    }
+</style>
