@@ -1,7 +1,8 @@
 # Task Tracker
 ```
 This app keeps track of tasks, saving their description and total time taken for complete it.
-For this app we used Vue.js and TypeScript
+For this app we used Vue.js with TypeScript and Bulma for component styling.
+
 ```
 
 ## Project setup
